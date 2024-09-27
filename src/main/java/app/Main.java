@@ -15,7 +15,11 @@ public class Main {
         km = mi*1.60934;
         System.out.println(mi + " миль "+ "= "+ km +" кілометрів. ");
 
-
+        System.out.println("Перетворюємо кілометри в милі ");
+        System.out.println("Введіть кілометри : ");
+        km = scanner.nextInt();
+        mi= km/1.60934;
+        System.out.println(km + "кілометрів "+ " = "+ mi + " миль");
 
         }
 }
